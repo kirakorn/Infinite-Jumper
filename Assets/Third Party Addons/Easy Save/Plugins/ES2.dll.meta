@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e2916f7a3e9f049f6adaf85539c80dea
+guid: f7c2b27021fe24040a15c90bfc80ef29
 labels:
 - Save
 - Load
@@ -43,11 +43,22 @@ labels:
 - iOS
 - Android
 - Crossplatform
+- writer
+- read
+- reader
+- cloud
+- excel
+- spreadsheet
+- csv
+- xls
+- table
+- export
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
+  isOverridable: 0
   platformData:
     Android:
       enabled: 1
@@ -108,6 +119,10 @@ PluginImporter:
         CPU: AnyCPU
     Win64:
       enabled: 1
+      settings:
+        CPU: AnyCPU
+    WindowsStoreApps:
+      enabled: 0
       settings:
         CPU: AnyCPU
     iOS:
